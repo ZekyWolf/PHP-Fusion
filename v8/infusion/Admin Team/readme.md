@@ -9,3 +9,5 @@ Folder admin_system upload to ../infusions/
 Folder locale upload to correct locale (or make your own)
 
 Folder permalinks upload to ../include/rewrites/
+
+![Screenshot](AdminTeam.png)
