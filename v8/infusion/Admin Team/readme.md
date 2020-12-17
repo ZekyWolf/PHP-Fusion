@@ -10,4 +10,4 @@ Folder locale upload to correct locale (or make your own)
 
 Folder permalinks upload to ../include/rewrites/
 
-![Screenshot](AdminTeam.png)
+![Screenshot](Team.png)
