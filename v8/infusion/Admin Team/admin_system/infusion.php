@@ -20,16 +20,16 @@ if (!defined("IN_FUSION")) {
 	die("Access Denied"); 
 }
 
-$inf_title = "Admin systém v3.5";
-$inf_description = "Admin systém v3.5";
+$inf_title = "Admin systém v2";
+$inf_description = "Admin systém v2";
 $inf_version = "3.5";
 $inf_developer = "<strong>ZeXiiK</strong>";
-$inf_email = "zexiceksk@gmail.com";
-$inf_weburl = "https://zjecpelko.sk/";
+$inf_email = "info@gamenation.eu";
+$inf_weburl = "https://gamenation.eu/";
 $inf_folder = "admin_system";
 
 $inf_adminpanel[1] = array(
-	"title" => "Admin systém",
+	"title" => "Admin System",
 	"image" => "infusion_panel.gif",
 	"panel" => "admin.php",
 	"rights" => "AS");
