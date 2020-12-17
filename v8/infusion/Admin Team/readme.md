@@ -7,7 +7,8 @@ For no make mistakes...
 Folder admin_system upload to ../infusions/
 
 Folder locale upload to correct locale (or make your own)
+- this is needed for rewrite mod in admin section
 
-Folder permalinks upload to ../include/rewrites/
+Files from folder permalinks upload to ../include/rewrites/
 
 ![Screenshot](Team.png)
