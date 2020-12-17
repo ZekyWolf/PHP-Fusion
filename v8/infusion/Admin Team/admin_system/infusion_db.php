@@ -1,5 +1,4 @@
 <?php
-	//require_once "../../maincore.php";  
 	if (!defined("IN_FUSION")) {
 		die("Access Denied");
 	}
