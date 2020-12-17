@@ -41,7 +41,7 @@
 			{
 				echo "<img src='".IMAGES."avatars/".$user["user_avatar"]."' style='border:1px solid #fff;' width='100' height='100' valign='top' align='center'>";
 			}else{ 
-				echo "<img src='img/noav.png' style='border:1px solid #fff;' width='100' height='100' valign='top' align='center'>"; 
+				echo "<img src='../infusions/admin_system/img/noav.png' style='border:1px solid #fff;' width='100' height='100' valign='top' align='center'>"; 
 			}
 			echo "</td><td>";
 			echo  $locale['AS_TEAM2']."<a href='".BASEDIR."profile.php?lookup=".$user["user_id"]."'>".$user["user_name"]."</a><br />";
