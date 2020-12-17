@@ -15,8 +15,7 @@
 	while($group=dbarray($groups))
 	{
 		$g = 1;
-		//$submits.="<td><form action='' method='GET'><input type='hidden' value='".$group["id"]."' name='skupina' /><input class='button' type='submit' value='".$group["nazev"]."'></form></td>";
- 		$submits.="<td><a class='button' type='submit' href='".INFUSIONS."admin_system/team.php?skupina=".$group["id"]."'>".$group["nazev"]."</a></td>";
+		$submits.="<td><a class='button' type='submit' href='".INFUSIONS."admin_system/team.php?skupina=".$group["id"]."'>".$group["nazev"]."</a></td>";
 	}
 	if($g==1) 
 	{
