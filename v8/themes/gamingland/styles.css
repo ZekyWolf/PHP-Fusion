@@ -1,0 +1,90 @@
+@import "css/bootstrap.min.css?v=8989898";
+@import "css/font-awesome.min.css";
+@import "css/style.min.css?v=8988998";
+
+.article_info {}
+
+.center{margin:0 auto}
+.clear{clear:both}
+.float-left {float:left}
+
+.float-right{float:right}
+
+.content_center {
+
+text-align : center;
+
+}
+
+.flleft {
+
+float : left !important ;
+
+}
+
+.flright {
+
+float : right !important ;
+
+}
+
+.clearfix:after {
+
+content : ".";
+
+display : block;
+
+height : 0;
+
+clear : both;
+
+visibility : hidden;
+
+}
+
+.clearfix {
+
+display : block;
+
+}
+
+.floatfix {
+
+overflow : hidden;
+
+}
+
+.center, *[align="center"] {
+
+margin : 0 auto;
+
+}
+
+* html .floatfix {
+
+width : 100%;
+
+}
+
+.tbl-border{margin:0 auto}
+.tbl{padding:10px}
+.tbl1{padding:10px;border:1px solid #3d3d3d}
+.tbl1 a{color:##fffff}
+.tbl2{padding:10px;color:##fffff;border:1px solid #3d3d3d}
+.tbl2 a{color:##fffff}
+.forum_idx_panel .tbl-border{margin:0 auto}
+.forum_idx_panel .tbl{padding:10px}
+.forum_idx_panel .tbl1{padding:10px}
+.forum_idx_panel .tbl2{padding:10px}
+.forum-caption{color:##fffff;padding:10px;background-color:##fffff}
+.button{background-color:##fffff;border:0;border-radius:0;padding:10px;color:#1b1b1b;font-weight:bold}
+.input{padding:10px;background-color:#2c2c2c}
+input{padding:6px;background-color:#2c2c2c}
+.textbox{background-color:#4b4b4b;color:##fffff;padding:11px;border:0;border-radius:0}
+
+hr{border:0;height:1px;background-color:#3d3d3d;background-image:linear-gradient(to right, #3d3d3d, #3d3d3d, #3d3d3d)}
+.admin-message{margin:0px auto 0px auto;background-color:##fffff;text-align:center;color:##fffff;text-transform:uppercase;padding:10px}
+.admin-message a{color:##fffff}
+.admin-message a:hover{color:##fffff}
+form{margin:0}
+
