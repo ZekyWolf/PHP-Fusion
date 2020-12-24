@@ -4,10 +4,13 @@ if (!defined("IN_FUSION")) { die("Access Denied"); }
 
 define("THEME_BULLET", "<span class='bullet'>&middot;</span>");
 define("THEME_WIDTH", "1200px");
-define("BOOSTRAP", "FALSE");
-define("FONTAWESOME", "FALSE");
-define("ENTYPO", "FALSE");
+
 require_once __DIR__.'/../../maincore.php';
+
+/* Do not remove this or copyrights at footer ! */
+add_to_head('<meta name="author" content="Smajlik :P (Sefik)">');
+
+/* New by Zeky */
 if (file_exists(THEME."locale/".LANGUAGE.".php")) {
     // Load the locale file matching selection.
     include THEME."locale/".LANGUAGE.".php";
