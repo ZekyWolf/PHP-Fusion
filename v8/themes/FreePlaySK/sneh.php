@@ -1,1 +1,0 @@
-echo "<script type='text/javascript' src='".THEME."sneh.js'></script>";
