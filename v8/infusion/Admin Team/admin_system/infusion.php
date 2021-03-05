@@ -20,8 +20,8 @@ if (!defined("IN_FUSION")) {
 	die("Access Denied"); 
 }
 
-$inf_title = "Admin systém v2";
-$inf_description = "Admin systém v2";
+$inf_title = "Admin system v2";
+$inf_description = "Admin system v2";
 $inf_version = "3.5";
 $inf_developer = "<strong>ZeXiiK</strong>";
 $inf_email = "info@gamenation.eu";
