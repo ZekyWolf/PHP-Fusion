@@ -39,7 +39,7 @@
         'image'    => $inf_image,
         'title'    => $locale['as_title'],
         'panel'    => 'admin.php',
-        'page'     => 6,
+        'page'     => 5,
         'language' => LANGUAGE
     ];
 
